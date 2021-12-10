@@ -1,0 +1,112 @@
+/* Tablet */
+@media only screen and (min-width:200px) and (max-width:991px) {
+    
+    .ineer_hero h2 {
+        font-size: 60px;
+    }
+    .mean-container .mean-nav ul li a {
+        width: 85%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 75%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 65%;
+    }
+    .middle_area {
+        display: flex;
+        padding: 20px 0px;
+    }
+    #slider_area {
+        margin-top: 0px;
+    }
+    .mainCommon h2 {
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:480px) {
+    .inner_top_area, .middle_area {
+        flex-direction: column;
+    }
+    .mini_menu{
+        flex: 100%;
+       margin-bottom: 10px;
+    }
+    .logo{
+        flex: 100%;
+        margin: 0px auto;
+    }
+      
+    .searh_area,.social_area{
+          flex: 100%;
+    }
+    .social_area ul {
+        text-align: center;
+    }
+    .social_area ul li {
+        margin: 10px;
+    }
+
+    /* ======Slider css==== */
+    #slider_area,.item img {
+        height: auto; 
+    }
+    .Slide_caption {
+        bottom: 50%;
+        transform: translate(-50%,50%);
+    }
+    .Slide_caption h1 {
+      font-size: 20px;
+    }
+
+
+    /* =====hero area css====== */
+    .hero_image {
+        float: none;
+        width: 100%;
+    }
+    .hero_descrip {
+        float: none;
+        padding: 20px;
+        width: 100%;
+    }
+    .ineer_hero h2 {
+        font-size: 60px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    /* -----Main area css------ */
+    .inner_main_area {
+        padding: 0px;
+    }
+    .about_area,.service_area,.client_area {
+        float: none;
+        width: 100%;
+        padding:20px;
+    }
+
+
+    /* --------Footer---------*/
+    .footer_common {
+        float: none;
+        width: 100%;
+        padding: 20px;
+        border: none;
+        margin: 0px;
+    }
+    .inner_footer_area {
+        padding: 0px;
+    }
+    .post_title:last-child {
+        float: none;
+        margin-top: 50px;
+    }
+    .inner_copyrights {
+        display: flex;
+        flex-direction: column;
+    }
+}
